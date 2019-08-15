@@ -30,3 +30,5 @@ Branch:
     -   git checkout
     -   git mergemerge
     -   git rebase (nâng cao)
+
+    Khi merge thì ai cũng có quyền merge ở local. Nhưng khi push thì chỉ 1 số người mới có quyền push lên -> pull request.
