@@ -1,0 +1,22 @@
+-   Repository: Là một tập hợp các file của dự án. Chứa tất cả các commit của bạn, tất cả các công việc của bạn (giống như một cuốn sổ).
+-   Một Repository có thể lữu trữ ở trên một máy local hay một máy server nào đó. Mình có thể copy cái Repository từ máy server về máy local. (clone)
+-   Snapshots: Là cách mà git theo dõi sự thay đổi history source code.
+-   Commits: Mỗi lần thay đổi source code ta có một commit.
+
+Github?
+-   Có thể nói là một dịch vụ lưu trữ git repository. Là nơi chứa toàn bộ source code.
+
+Các lệnh cơ bản:
+-   git init    ->  Tạo ra một Repository Github
+-   git clone   ->  Lấy một Repository có sẵn và đưa về máy mình.    
+-   git pull
+-   git add và git add .
+-   git commit  ->  git add và git commit khi chúng ta muốn commit những thứ chúng ta thay đổi vào repository.
+-   git push    ->  đưa code từ máy local lên máy server.
+-   git log -> git log.
+-   git log --decoreat --graphgraph --oneline
+
+untracked files: Chưa cho vào staging area. -> Dùng lệnh git add. Chuyển sang trạng thái Changes to be commit.
+git commit  ->  Chúng ta commit nó vào local repository.
+git push để đưa code lên remote.
+git diff giúp bạn check đã thay đổi những gì.
