@@ -14,7 +14,7 @@ Các lệnh cơ bản:
 -   git commit  ->  git add và git commit khi chúng ta muốn commit những thứ chúng ta thay đổi vào repository.
 -   git push    ->  đưa code từ máy local lên máy server.
 -   git log -> git log.
--   git log --decoreat --graphgraph --oneline
+-   git log --decoreat --graph --oneline
 
 untracked files: Chưa cho vào staging area. -> Dùng lệnh git add. Chuyển sang trạng thái Changes to be commit.
 git commit  ->  Chúng ta commit nó vào local repository.
