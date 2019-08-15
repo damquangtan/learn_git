@@ -20,3 +20,7 @@ untracked files: Chưa cho vào staging area. -> Dùng lệnh git add. Chuyển 
 git commit  ->  Chúng ta commit nó vào local repository.
 git push để đưa code lên remote.
 git diff giúp bạn check đã thay đổi những gì.
+
+-   Fetch và pull khác nhau như thế nào?
+    +   pull là tự động fetch các thay đổi về sau đó merge vào repository hiện tại.
+    +   fetch chỉ là lấy các reference về thôi, sau đó mình muốn làm tiếp gì với các reference đó thì mình làm.
