@@ -1,0 +1,5 @@
+<<<<<<< Updated upstream
+=======
+- Tin nhan nay o branch_1
+- Dong thu hai cua tin nhan, van la o branch_1
+>>>>>>> Stashed changes
