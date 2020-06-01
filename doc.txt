@@ -28,7 +28,7 @@ git diff giúp bạn check đã thay đổi những gì.
 Branch:
     -   git branch
     -   git checkout
-    -   git mergemerge
+    -   git merge
     -   git rebase (nâng cao)
 
     Khi merge thì ai cũng có quyền merge ở local. Nhưng khi push thì chỉ 1 số người mới có quyền push lên -> pull request.
