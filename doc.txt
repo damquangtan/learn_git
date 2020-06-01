@@ -32,33 +32,3 @@ Branch:
     -   git rebase (nâng cao)
 
     Khi merge thì ai cũng có quyền merge ở local. Nhưng khi push thì chỉ 1 số người mới có quyền push lên -> pull request.
-
--   Để hiểu rõ Pull và Pull Request thì bạn cần hiểu quy trình làm việc của git đối với trường hợp nhiều lập trình viên tham gia
-vào dự án.
-    + Git pull
-        .   Câu lệnh git pull thực ra là viết tắt của git pull origin master. Trong đó: origin là tên của kho chứa từ xa (hay remote repository)
-        master là tên của nhánh trên kho chứa từ xa. Một kho chứa có thể có nhiều nhánh khác nhau.
-        .   Để liệt kê các kho chứa các bạn dùng lệnh git remote -v 
-        .   Để liệt kê các nhánh của các kho chứa: git branch -a
-    +   Về bản chất khi chạy câu lệnh git pull origin master thực ra là bạn đang chạy 2 câu lệnh:
-        .   git fetch origin master
-        .   git merge origin master
-    +   Câu lệnh git fetch origin master sẽ truy vấn thông tin của kho chứa từ xa trên máy chủ remote và sau đó kéo về máy local những thay đổi
-    này. Tiếp đó câu lệnh trên sẽ thực hiện việc so sánh những thay đổi mới kéo về máy local và hiển thị thông tin.
-    +   Câu lệnh git merge origin masterer sẽ gộp những thay đổi mới kéo về(dùng câu lệnh git fetch ở trên) từ máy chủ từ xa với nhánh hiện tại
-    trên máy local.
-
-Pull Request: Thông thường khi làm việc với git mỗi lập trinh viên sẽ tạo các branch khác với master để phát triển một tính năng mới. Giả sử nhánh
-    mà lập trinh viên tạo để phát triển tính năng mới là my_feature. Trong trường hợp này sau khi đẩy commit trên nhánh này trên nhánh tương ứng
-    my_feature ở kho chứa từ xa origin thì để các lập trình viên khác có thể kéo về được commit nàynày thì quản trị viên trên máy chủ từ xa cần
-    thực hiện việc gộp commit ở nhánh my_feature về nhánh master.
-
-    Pull request là một yêu cầu gửi tới quản trị viên kho chứa từ xa gộp commit mới được tạo từ nhánh my_feature về nhánh masterer để các lập
-    trình viên khác có thể pull về được.
-
-- Quy trình:
-    +   commit source code ở branch của bạn
-    +   di chuyển sang branch chính rồi git pull để lấy code mới nhất về
-    +   di chuyển qua nhánh của bạn
-    +   Thực hiện git rebase hoặc git merge <branch-origin>
-    +   Resolve conflic nếu có.
