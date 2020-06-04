@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 tin nhan tai feature-1 muc dich de tao conflic
+=======
+tin nhan o feature-2 de tao conflic
+>>>>>>> bf0098e18636e1b683fd520c284453f12c845b38
