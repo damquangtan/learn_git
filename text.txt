@@ -4,3 +4,4 @@ tin nhan o feature-2 de tao conflic
 - tin nhan tao ra o feature-2 lan thu 2
 - thay doi se duoc stash tai feature-1
 - tao stash tai feature-2
+- lan nay se chi bi conflic khi develop merge ca hai feature-1 va feature-2
