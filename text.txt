@@ -1,0 +1,8 @@
+tin nhan tai feature-1 muc dich de tao conflic
+tin nhan o feature-2 de tao conflic
+- tao o feature-1 lan thu 2
+- tin nhan tao ra o feature-2 lan thu 2
+- thay doi se duoc stash tai feature-1
+- tao stash tai feature-2
+- lan nay tao tai feature-1 se ko bi conflic
+- lan nay se chi bi conflic khi develop merge ca hai feature-1 va feature-2
