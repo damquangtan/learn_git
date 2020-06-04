@@ -1,1 +1,3 @@
 tin nhan tai feature-1 muc dich de tao conflic
+tin nhan o feature-2 de tao conflic
+- tao o feature-1 lan thu 2
