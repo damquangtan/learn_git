@@ -2,3 +2,5 @@ Co mot nguoi van yeu mot nguoi
 Van doi cho dau cho nguoi ay khong ve
 Them mot dong vao cuoi cua file
 Da xoa mot dong va them vao dong nay
+them mot dong de commit
+them tiep mot dong nua
