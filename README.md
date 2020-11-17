@@ -5,3 +5,9 @@ Tao them chut thay doi \n
 Them mot dong \n
 Them tiep mot dong nua \n
 Tiep tuc them dong nua \n
+
+
+trong goc toi \r\n
+
+toi khong tin trai tim em nhu gia lanh
+
