@@ -5,3 +5,8 @@ Them dong moi
 
 Them dong moi nua
 edit
+
+Tiep tuc sua file nay nhugn tai branch iss53. Thu ko commit no, se trong tinh trang conflic voi nhanh master, xem no co cho switch qua branch master khong
+
+
+
