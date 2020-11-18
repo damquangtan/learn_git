@@ -1,0 +1,31 @@
+- Git co kha nang danh dau (tag) cac moc quan trong trong du an
+- Nhin chung, chuc nang nay duoc su dung de danh dau thoi diem phat hanh (vi du v1.0)
+- Phan nay chung ta se duoc hoc: Lam sao liet ke cac tag hien co, lam sao de tao moi tag, cac loai tag khac nhau hien co
+
+1. Liet ke tag
+Su dung cau lenh git tag. Lenh nay se liet ke cac tag xuat hien theo bang chu cai, thu tu no xuat hien thuc su khong quan trong lam
+
+2. Them tag moi
+- Git su dung hai loai tag chinh: lightweight, annotated. Mot lightweight tag( hang nhe ) giong nhu mot nhanh ma khong co su thay doi,
+no chi tro toi mot commit nao do. Annotated (chu thich) tag thi lai duoc luu chu nhu nhung doi tuong khac trong co so du lieu cua git.
+Chung duoc bam, chua ten nguoi tag, dia chi email va ngay thang, co thong tin kem theo; va co the duoc ky va xac thuc bang GNU Privacy
+Guard (GPG). Annotated tag duoc khuyen khich su dung hon.
+
+* Tao annotated tag: 
+- Cu phap; git tag -a <version> -m <message>
+- Vi du: git tag -a v1.4 -m "tao mot annotated tag"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
