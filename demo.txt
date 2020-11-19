@@ -10,6 +10,6 @@ Tiep tuc sua file nay nhugn tai branch iss53. Thu ko commit no, se trong tinh tr
 Dau tien la sua thang nay tai branch master
 - dong nay cua commit 1
 - dong nay cua commit C3 tai branch master
-
+- dong nay cua commit C9 tai branch master
 
 
