@@ -12,4 +12,4 @@ Dau tien la sua thang nay tai branch master
 - dong nay cua commit C3 tai branch master
 - dong nay cua commit C9 tai branch master
 - dong nay cua commit C10 tai branch master
-
+- dong nay duoc them vao de tao commit tai branch master
