@@ -16,3 +16,4 @@ Dau tien la sua thang nay tai branch master
 - dong nay duoc tao tai nhanh master, thay doi file demo.txt
 - sua file demo.txt, mot commit se duoc tao tai nhanh master
 - 13:14 chinh sua file nay tai nhanh master
+- tao them mot dong tai branch experment
