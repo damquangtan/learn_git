@@ -22,3 +22,4 @@ Dau tien la sua thang nay tai branch master
 - Dong nay duoc them tai nhanh experment, chi co mot commit tai nhanh nay
 - 13: 12 dong nay duoc tao tren nhanh experment, 1 commit duy nhat
 - 13: 47 dong nay tao tren nhanh master
+- 13: 45 dong nay tao tren nhanh experment
