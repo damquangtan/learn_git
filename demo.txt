@@ -18,5 +18,5 @@ Dau tien la sua thang nay tai branch master
 - 13:14 chinh sua file nay tai nhanh master
 - tao them mot dong tai branch experment
 - dong nay moi duoc tao ra
-
+- Them dong nay tai branch experment, chinh sua file demo.txt va se ap dung rebase
 
